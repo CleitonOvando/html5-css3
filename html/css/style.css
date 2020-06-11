@@ -1,0 +1,12 @@
+header {
+    margin-top: 60px;
+
+body {
+    background: rgb(197, 197, 197);
+    margin-left: 400px;
+    margin-right: 450px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}

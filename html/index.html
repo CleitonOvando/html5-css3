@@ -1,23 +1,38 @@
 <!DOCTYPE html> <!--Informa o navegador que o documento é do tipo html 5-->
+
 <html lang="pt-br"> <!--Corresponde a abertura da escrita em 'html' e ao idioma da página-->
+    
     <head> <!--Onde ficará as meta tags e o Título da Página-->
         <meta charset="UTF-8"> <!--Meta tag informando que será utilizado decode 'utf-8', que é o padrão brasileiro, ou seja, 'Ç' e acentos na escrita-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Meta tag para o site ser otmizado para dispositivos móveis-->
         <title>Treinamento HTML5 e CSS3</title> <!--Título da página-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
+    
     <body> <!--Corpo/conteúdo da página-->
         <nav> <!--Menu de navegação-->
             <ul> <!--Sintaxe para inserir uma lista de itens com links de navegação-->
+
+                <div>
+                <img src="img/html-css.jpg" width="900px"> <!--Inserção de imagens com o caminho e seu tamanho em pixels-->
+                </div>
+
                 <p><h2>Menus de Navegação</h2></p>
-                <li>Menu Navegação 1</li> <!--Sintaxe para referir uma lista-->
-                <li>Menu Navegação 2</li>
-                <li>Menu Navegação 3</li>
-                <li>Menu Navegação 4</li>
-                <li>Menu Navegação 5</li>
+                <li><a href="#Menu Navegação 1">Menu Navegação 1</a> </li> <!--Sintaxe para referir uma lista-->
+                <li><a href="#Menu Navegação 2">Menu Navegação 2</a> </li>
+                <li><a href="#Menu Navegação 3">Menu Navegação 3</a> </li>
+                <li><a href="#Menu Navegação 4">Menu Navegação 4</a> </li>
+                <li><a href="#Menu Navegação 5">Menu Navegação 5</a> </li>
+                <li><a href="#Contato">Contato</a></li>
             </ul>
         </nav>
         <p>Conteúdo da minha primeira Página Web.</p> <!--A sintase '<p>' representa uma linha em parágrafo-->
         <header><h1>Treinamento em Desenvolvimento HTML5 e CSS3</h1></header> <!--Título do conteúdo da página-->
+
+            <div>
+            <img src="img/html-code.png" width="600px">
+            </div>
+
             <p>Conteúdo do meu primeiro título</p>
 
         <section id="Menu Navegação 1"> <!--Sintaxe para relacionar aos links de navegação-->
@@ -43,6 +58,24 @@
         <section id="Menu Navegação 5">
             <h2>Menu de Navegação 5</h2>
             <p>Conteúdo referente ao Menu de Navegação 5</p>
+        </section>
+
+        <section id="Contato">
+            <h2>Contato</h2>
+            <p>Entre em contato através dos meios disponíveis</p>
+            <div>
+                <img src="img/contato-email.png" width="60">
+                <p><a href="mailto:cleiton.ovando@gmail.com">cleiton.ovando@gmail.com</a></p>
+            </div>
+
+            <div>
+                <img src="img/tel.png" width="60">
+                <p><a href="tel:99999999999">(99) 9 9999-9999</a></p>
+            </div>
+            <h2>Redes Sociais</h2>
+            <div>
+                <a href="https://facebook.com/" target="_blank"><img src="img/facebook-logo.png" width="60"></a>
+            </div>
         </section>
 
         <footer>Desenvolvido por Cleiton Ovando / Desde 2020 - 2020</footer> <!--Rodapé da página-->
